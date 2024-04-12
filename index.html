@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pass.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Random Password Generator</title>
+</head>
+<body>
+    <!-- Several chnages are made -->
+    <div class="full">
+        <h1>Password Generator</h1>
+        <div class="textarea">
+            <input type="text" class="txt">
+            <span class="material-symbols-outlined">
+                <span class="copy-symbol">
+                    content_copy
+                </span>
+            </span>
+        </div>
+        <div class="main-function">
+            <h3>Password Length:<span class="value"></span></h3>
+            <input type="range" alt="slider" class="slide" min="4" max="20">
+            <div class="inp">
+                <div>
+                    <input type="checkbox" id="uppercase">
+                    <label for="uppercase">Include Uppercase Letters</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="lowercase">
+                    <label for="lowercase">Include Lowercase Letters</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="numbers">
+                    <label for="numbers">Include Numbers</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="symbols">
+                    <label for="symbols">Include Symbols</label>
+                </div>
+                <button class="pass">Generate Password</button>
+            </div>
+        </div>
+    </div>
+    <script src="pass.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(to bottom, rgb(169, 169, 169),rgb(80, 79, 79));
+    width: 100vw;
+    height: 100vh;
+}
+
+.full{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.textarea{
+    width: 300px;
+    height: 5%;
+    border-radius: 10px;
+    background-color: rgb(234, 231, 231);
+    color: black;
+}
+
+.txt{
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(234, 231, 231);
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+material-symbols-outlined{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.copy-symbol:hover{
+    background-color: rgb(171, 170, 170);
+    border-radius: 25%;
+}
+
+.main-function{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 300px;
+    height: fit-content;
+    background-color: rgb(218, 218, 218);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+h3{
+    font-size: 25px;
+    text-align: center;
+}
+
+/* .slide{
+    height: 20px;
+    border: none;
+    width: 90%;
+    margin-left: 15px;
+} */
+
+.inp{   
+    font-size: 20px;
+    font-weight: 500;
+}
+
+input[type="range"] {
+    accent-color: rgb(133, 132, 132);
+    cursor: pointer;
+}
+
+.inp div input[type="checkbox"]{
+    margin-left: 10px;
+}
+
+.inp label{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+input[type="range"] {
+    margin-inline: 10px;
+    width: 90%;
+    margin-block: 10px;
+    display: flex;
+    background-color: rgb(103, 101, 101);
+    justify-content: center;
+    align-items: center;
+}
+.pass{
+    width: 90%;
+    height: 30px;
+    margin-left: 13px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(166, 166, 166);
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.pass:hover{
+    background-color: rgb(134, 134, 134);
+    cursor: pointer;
+}
