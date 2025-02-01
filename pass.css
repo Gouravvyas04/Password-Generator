@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(to bottom, #4c00ff, #00c3ff);
+    background: linear-gradient(to bottom right, #ff00ff, #ff6600, #00ffcc);
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -25,19 +25,21 @@ body {
 
 .textarea {
     width: 320px;
-    height: 40px;
-    border-radius: 10px;
-    background-color: #ffffff;
-    color: #333;
+    height: 45px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
     display: flex;
     align-items: center;
     padding: 5px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.3);
     transition: 0.3s ease-in-out;
+    border: 2px solid rgba(255, 255, 255, 0.4);
 }
 
 .textarea:hover {
     transform: scale(1.05);
+    border-color: white;
 }
 
 .txt {
@@ -50,7 +52,7 @@ body {
     font-weight: 600;
     padding-left: 10px;
     outline: none;
-    color: #333;
+    color: white;
 }
 
 .copy-symbol {
@@ -58,31 +60,36 @@ body {
     transition: 0.3s;
     padding: 8px;
     border-radius: 50%;
+    color: white;
 }
 
 .copy-symbol:hover {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1);
 }
 
 .main-function {
     padding: 20px;
-    width: 320px;
-    background: linear-gradient(135deg, #ff6b6b, #ffb400);
+    width: 340px;
+    background: linear-gradient(135deg, #ff00ff, #ff6600);
     border-radius: 15px;
     margin-top: 15px;
     text-align: center;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4);
     transition: 0.3s ease-in-out;
+    border: 2px solid white;
 }
 
 .main-function:hover {
     transform: translateY(-5px);
+    box-shadow: 0px 6px 20px rgba(255, 255, 255, 0.5);
 }
 
 h3 {
-    font-size: 26px;
+    font-size: 28px;
     color: white;
     margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .inp {
@@ -92,7 +99,7 @@ h3 {
 }
 
 input[type="range"] {
-    accent-color: #ffb400;
+    accent-color: #ff6600;
     cursor: pointer;
     width: 90%;
     margin: 10px auto;
@@ -106,12 +113,13 @@ input[type="range"] {
 .inp label {
     display: inline-block;
     margin-right: 10px;
-    padding: 5px 10px;
+    padding: 6px 12px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.2);
     color: white;
     cursor: pointer;
     transition: 0.3s;
+    font-weight: bold;
 }
 
 .inp label:hover {
@@ -120,21 +128,24 @@ input[type="range"] {
 
 .pass {
     width: 90%;
-    height: 35px;
+    height: 40px;
     margin-left: 13px;
     border-radius: 10px;
     border: none;
-    background-color: #ffb400;
-    font-size: 16px;
-    font-weight: 500;
+    background: linear-gradient(45deg, #ff00ff, #ff6600);
+    font-size: 18px;
+    font-weight: bold;
     color: white;
     text-align: center;
     margin-top: 10px;
     transition: 0.3s;
     cursor: pointer;
+    box-shadow: 0px 4px 12px rgba(255, 0, 255, 0.5);
+    border: 2px solid white;
 }
 
 .pass:hover {
-    background-color: #ff9100;
+    background: linear-gradient(45deg, #ff6600, #ff00ff);
     transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(255, 255, 255, 0.5);
 }
