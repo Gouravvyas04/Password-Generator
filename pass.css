@@ -8,7 +8,7 @@
 
 /* Body Styling */
 body {
-    background: linear-gradient(to bottom, #f4f7f9, #dfe7ec);
+    background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -16,9 +16,8 @@ body {
     justify-content: center;
 }
 
-/* Centering Container */
+/* Centered Container */
 .full {
-    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,16 +25,16 @@ body {
     color: #333;
 }
 
-/* Text Area Styling */
+/* Text Area Box */
 .textarea {
     width: 340px;
-    height: 45px;
+    height: 48px;
     border-radius: 8px;
     background-color: #ffffff;
     color: #333;
     display: flex;
     align-items: center;
-    padding: 5px;
+    padding: 10px;
     border: 1px solid #ccc;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
     transition: all 0.3s ease-in-out;
@@ -48,10 +47,8 @@ body {
 
 .txt {
     width: 100%;
-    height: 100%;
-    border-radius: 8px;
     border: none;
-    background-color: transparent;
+    background: none;
     font-size: 16px;
     font-weight: 500;
     padding-left: 10px;
@@ -59,7 +56,7 @@ body {
     color: #333;
 }
 
-/* Copy Icon */
+/* Copy Button */
 .copy-symbol {
     cursor: pointer;
     transition: 0.3s;
@@ -69,14 +66,14 @@ body {
 }
 
 .copy-symbol:hover {
-    background-color: rgba(0, 123, 255, 0.15);
+    background-color: rgba(0, 123, 255, 0.1);
     transform: scale(1.1);
 }
 
-/* Main Container Styling */
+/* Main Box Styling */
 .main-function {
     padding: 20px;
-    width: 350px;
+    width: 360px;
     background: #ffffff;
     border-radius: 12px;
     margin-top: 15px;
@@ -91,6 +88,7 @@ body {
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
 }
 
+/* Heading */
 h3 {
     font-size: 22px;
     color: #333;
@@ -98,7 +96,7 @@ h3 {
     font-weight: 600;
 }
 
-/* Input Section */
+/* Input Styling */
 .inp {
     font-size: 16px;
     font-weight: 500;
@@ -114,6 +112,7 @@ input[type="range"] {
     display: block;
 }
 
+/* Checkbox */
 .inp div input[type="checkbox"] {
     margin-left: 10px;
 }
@@ -137,8 +136,7 @@ input[type="range"] {
 /* Button Styling */
 .pass {
     width: 90%;
-    height: 40px;
-    margin-left: 13px;
+    height: 42px;
     border-radius: 8px;
     border: none;
     background: #007bff;
@@ -157,4 +155,3 @@ input[type="range"] {
     transform: scale(1.05);
     box-shadow: 0px 6px 15px rgba(0, 123, 255, 0.3);
 }
-
